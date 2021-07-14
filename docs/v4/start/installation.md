@@ -39,7 +39,7 @@ composer require nyholm/psr7 nyholm/psr7-server
 
 ### [Guzzle PSR-7](https://github.com/guzzle/psr7) and [Guzzle HTTP Factory](https://github.com/http-interop/http-factory-guzzle)
 ```bash
-composer require guzzlehttp/psr7 http-interop/http-factory-guzzle
+composer require guzzlehttp/psr7 1.4.2 http-interop/http-factory-guzzle
 ```
 
 ### [Laminas Diactoros](https://github.com/laminas/laminas-diactoros)
