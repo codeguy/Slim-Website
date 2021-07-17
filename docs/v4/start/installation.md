@@ -4,7 +4,6 @@ title: Installation
 
 ## System Requirements
 
-* Web server with URL rewriting
 * PHP 7.2 or newer
 
 ## Step 1: Install Composer
@@ -68,3 +67,13 @@ $app->get('/', function (Request $request, Response $response, $args) {
 
 $app->run();
 ```
+
+## Step 5: Run the app
+
+```bash
+php -S localhost:8080 -t public public/index.php
+```
+
+Now, your "Hello World" site is available on [localhost:8080](http://localhost:8080). 🎉
+
+**Warning**: This built-in web server is meant for testing purposes and should not be used on a public network. See [Web Servers](/docs/v4/start/web-servers.html) on how to make your site work with a production-ready web server.
